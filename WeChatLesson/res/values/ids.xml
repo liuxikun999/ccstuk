@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- ActionBar工具栏 -->
+    <item name="action_bar_search" type="id"></item>
+    <item name="action_bar_add" type="id"></item>
+    <item name="action_bar_add_group_chat" type="id"></item>
+    <item name="action_bar_add_friends" type="id"></item>
+    <item name="action_bar_add_video_chat" type="id"></item>
+    <item name="action_bar_add_scan" type="id"></item>
+    <item name="action_bar_add_photo_share" type="id"></item>
+    <item name="action_bar_more" type="id"></item>
+    <item name="action_bar_more_user" type="id"></item>
+    <item name="action_bar_more_album" type="id"></item>
+    <item name="action_bar_more_favorite" type="id"></item>
+    <item name="action_bar_more_card" type="id"></item>
+    <item name="action_bar_more_setting" type="id"></item>
+    <item name="action_bar_more_feedback" type="id"></item>
+    
+    <!-- 欢迎页面 -->
+    <item name="welcome_ly" type="id"></item>
+    <item name="welcome_iv" type="id"></item>
+    <item name="welcome_earth_iv" type="id"></item>
+    <item name="welcome_people_iv" type="id"></item>
+
+    <!-- 主页面头部 -->
+    <item name="head_card_group_ly" type="id"></item>
+    <item name="main_view_group" type="id"></item>
+    <item name="head_line_view_group" type="id"></item>
+    <item name="head_line_layout" type="id"></item>
+    <item name="head_chat_me" type="id"></item>
+    <item name="head_found" type="id"></item>
+    <item name="head_contacts" type="id"></item>
+    <item name="line_chat_me" type="id"></item>
+    <item name="line_found" type="id"></item>
+    <item name="line_contacts" type="id"></item>
+
+    <!-- 聊天栏目 -->
+    <item name="chat_view_sv" type="id"></item>
+    <item name="chat_view_ly" type="id"></item>
+    <item name="chat_item_ry" type="id"></item>
+    <item name="chat_item_iv" type="id"></item>
+    <item name="chat_item_title" type="id"></item>
+    <item name="chat_item_date" type="id"></item>
+    <item name="chat_item_describ" type="id"></item>
+    <item name="chat_list" type="id"></item>
+    
+    <!-- 发现栏目 -->
+    <item name="find_list" type="id"></item>
+    <item name="find_more_divide_line" type="id"></item>
+    
+    <item name="find_more_friend_photograph_ry" type="id"></item>
+    <item name="find_more_friend_near_ry" type="id"></item>
+    <item name="find_more_friend_scan_ry" type="id"></item>
+    <item name="find_more_friend_shake_ry" type="id"></item>
+    <item name="find_more_friend_bottle_ry" type="id"></item>
+    <item name="more_game_ry" type="id"></item>
+    <item name="more_emoji_store_ry" type="id"></item>
+    
+    <item name="find_more_friend_iv" type="id"></item>
+    <item name="find_more_friend_tv" type="id"></item>
+    
+    <item name="find_more_friend_near_iv" type="id"></item>
+    <item name="find_more_friend_scan_iv" type="id"></item>
+    <item name="find_more_friend_shake_iv" type="id"></item>
+    <item name="find_more_friend_bottle_iv" type="id"></item>
+    <item name="more_game_iv" type="id"></item>
+    <item name="more_emoji_store_iv" type="id"></item>
+        
+    
+    
+    
+</resources>

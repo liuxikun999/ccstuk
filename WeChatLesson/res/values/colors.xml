@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<color name="bg_action_bar">#303537</color>
+  	<color name="bg_transparent">#00000000</color>
+  	<color name="bg_white">#FFFFFFFF</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_green">#00FF00</color>
+    <color name="bg_red">#FF0000</color>
+    <color name="bg_blue">#0000FF</color>
+    <color name="bg_head">#f7f7f7</color>
+    <color name="bg_head_line">#45c01a</color>
+    <color name="bg_head_text">#87d46d</color>
+    <color name="chat_date_gray">#e3e3e3</color>
+    <color name="chat_describ_gray">#c0c0c0</color>
+    <color name="chat_title_black">#707070</color>
+    <color name="chat_title_blue">#7897b9</color>
+    <color name="chat_list_divider_color">#eaeaea</color>
+    
+</resources>

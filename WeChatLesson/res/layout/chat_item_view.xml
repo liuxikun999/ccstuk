@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@id/chat_item_ry"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="6dp"
+    	android:layout_marginBottom="6dp"
+    	android:layout_marginTop="6dp"
+        >
+        <ImageView 
+            android:id="@id/chat_item_iv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_centerVertical="true"
+            />
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toRightOf="@id/chat_item_iv"
+            android:layout_toLeftOf="@id/chat_item_date"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+            <TextView 
+            android:id="@id/chat_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chatme_league"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+        <TextView 
+            android:id="@id/chat_item_describ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/chat_item_descrb_eg"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textColor="@color/chat_describ_gray"
+            />
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@id/chat_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/chat_item_date_eg"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textColor="@color/chat_date_gray"
+            />
+    </RelativeLayout>
+</LinearLayout>

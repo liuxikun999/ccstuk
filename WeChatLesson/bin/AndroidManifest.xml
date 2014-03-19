@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wechatlesson"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.wechatlesson.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" 
+            android:theme="@style/MyStyleAppBaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wechatlesson.ViewGroupActivity"
+            android:icon="@drawable/actionbar_icon"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.wechatlesson.ShowChatActivity"
+            android:screenOrientation="portrait"
+            android:icon="@drawable/actionbar_icon"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

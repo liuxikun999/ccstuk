@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    
+    <string name="app_name">微信</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- actionBar Title -->
+    <string name="action_bar_search">搜索</string>
+    <string name="action_bar_add">添加</string>
+    <string name="action_bar_add_group_chat">发起群聊</string>
+    <string name="action_bar_add_friends">添加朋友</string>
+    <string name="action_bar_add_video_chat">视频聊天</string>
+    <string name="action_bar_add_scan">扫一扫</string>
+    <string name="action_bar_add_photo_share">拍照分享</string>
+    <string name="action_bar_more">更多</string>
+    <string name="action_bar_more_user">我的信息</string>
+    <string name="action_bar_more_album">我的相册</string>
+    <string name="action_bar_more_favorite">我的收藏</string>
+    <string name="action_bar_more_card">我的银行卡</string>
+    <string name="action_bar_more_setting">设置</string>
+    <string name="action_bar_more_feedback">用户反馈</string>
+    
+    <!-- 主框架头部 -->
+    <string name="head_chat_me">聊天</string>
+    <string name="head_found">发现</string>
+    <string name="head_contacts">通讯录</string>
+    
+    <!-- 发现页面 -->
+    <string name="friend_photograph">朋友圈</string>
+    <string name="friend_scan">扫一扫</string>
+    <string name="friend_shake">摇一摇</string>
+    <string name="friend_near">附近的人</string>
+    <string name="friend_bottle">漂流瓶</string>
+    <string name="more_game">游戏</string>
+    <string name="more_emoji_store">表情商店</string>
+    
+    
+    <string name="chatme_league">微信团队团队团队团队团队团队团队</string>
+    <string name="chat_item_date_eg">3月11日</string>
+    <string name="chat_item_descrb_eg">微信团队欢迎您，很高兴您#8230;</string>
+    
+</resources>

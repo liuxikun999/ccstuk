@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@id/action_bar_search" android:title="@string/action_bar_search" android:icon="@drawable/actionbar_search_icon" android:showAsAction="always"></item>
+    <item android:id="@id/action_bar_add" android:title="@string/action_bar_add" android:icon="@drawable/actionbar_add_icon" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/action_bar_add_group_chat" android:title="@string/action_bar_add_group_chat" android:icon="@drawable/ofm_group_chat_icon" android:showAsAction="ifRoom|withText"/>
+       
+            <item android:id="@id/action_bar_add_friends" android:title="@string/action_bar_add_friends" android:icon="@drawable/ofm_add_icon" android:showAsAction="ifRoom|withText"/>
+        
+            <item android:id="@id/action_bar_add_video_chat" android:title="@string/action_bar_add_video_chat" android:icon="@drawable/ofm_video_icon" android:showAsAction="ifRoom|withText"/>
+        
+            <item android:id="@id/action_bar_add_scan" android:title="@string/action_bar_add_scan" android:icon="@drawable/ofm_qrcode_icon" android:showAsAction="ifRoom|withText"/>
+        </menu>
+    </item>
+    <item android:id="@id/action_bar_more" android:title="@string/action_bar_more" android:icon="@drawable/actionbar_more_icon" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/action_bar_more_user" android:title="@string/action_bar_more_user" android:icon="@drawable/actionbar_particular_icon" android:showAsAction="ifRoom|withText"/>
+        
+            <item android:id="@id/action_bar_more_album" android:title="@string/action_bar_more_album" android:icon="@drawable/app_panel_pic_icon" android:showAsAction="ifRoom|withText"/>
+        
+            <item android:id="@id/action_bar_more_favorite" android:title="@string/action_bar_more_favorite" android:icon="@drawable/app_panel_fav_icon" android:showAsAction="ifRoom|withText"/>
+        
+            <item android:id="@id/action_bar_more_card" android:title="@string/action_bar_more_card" android:icon="@drawable/ofm_card_icon" android:showAsAction="ifRoom|withText"/>
+       
+            <item android:id="@id/action_bar_more_setting" android:title="@string/action_bar_more_setting" android:icon="@drawable/ofm_setting_icon" android:showAsAction="ifRoom|withText"/>
+        
+            <item android:id="@id/action_bar_more_feedback" android:title="@string/action_bar_more_feedback" android:icon="@drawable/ofm_feedback_icon" android:showAsAction="ifRoom|withText"/>
+        </menu>
+    </item>
+</menu>
